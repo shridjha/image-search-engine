@@ -81,3 +81,14 @@ form button{
     border-radius: 5px;
 
 }
+@media (max-width: 768px) {
+    #search-result{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width: 500px) {
+    #search-result{
+        grid-template-columns: 1fr;
+    }
+}
